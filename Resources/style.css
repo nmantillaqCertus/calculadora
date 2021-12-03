@@ -1,0 +1,29 @@
+
+.suma{
+    width: 10rem;
+    margin: 1%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background: #007bff !important;
+    color: white !important;
+}
+.resta{
+    width: 10rem;
+    margin: 1%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background: #28a745 !important;
+    color: white !important;
+}
+.multi{
+    width: 10rem;
+    margin: 1%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background: #dc3545 !important;
+    color: white !important;
+}
+.divi{
+    width: 10rem;
+    margin: 1%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background: #ffc107 !important;
+    color: white !important;
+}
