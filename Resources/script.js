@@ -83,6 +83,9 @@ function fnLimpiarHistorial(){
     $("#MsjUno").hide();
     $("#MsjDos").hide();
     $("#ItemsContent").empty();
+
+    $("#idMenjsaeModal").text("Se ha limpiado tu historial de operaciones.");
+    $("#exampleModal").modal("toggle");
 }
 function validaInputs(){
     var token = true;
