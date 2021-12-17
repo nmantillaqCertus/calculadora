@@ -1,4 +1,9 @@
-
+$(document).ready(function() {    
+    $("#idTitleCal").mouseover(function(){
+        $("#idModalMouse").modal("toggle");
+        //Escribe mas codigo
+    });
+});
 
 function fnSumar(){
     if(validaInputs()){
@@ -12,9 +17,8 @@ function fnSumar(){
                         '<h6 class="card-title">'+suma+' </h6>'+                    
                     '</div>'+
                 '</div>';        
-        $("#ItemsContent").append(item);
+        $("#ItemsContent").append(item);        
     }
-
 }
 
 function fnRestar(){
