@@ -17,7 +17,8 @@ function fnSumar(){
                         '<h6 class="card-title">'+suma+' </h6>'+                    
                     '</div>'+
                 '</div>';        
-        $("#ItemsContent").append(item);        
+        $("#ItemsContent").append(item); 
+        
     }
 }
 
@@ -81,6 +82,8 @@ function fnLimpiar(){
     $("#MsjDos").hide();
     $("#idNumUno").val("");
     $("#idNumDos").val("");
+
+    $("#idNumUno").focus();
 }
 function fnLimpiarHistorial(){
     $("#MsjDivError").hide(); 
@@ -90,6 +93,7 @@ function fnLimpiarHistorial(){
 
     $("#idMenjsaeModal").text("Se ha limpiado tu historial de operaciones.");
     $("#exampleModal").modal("toggle");
+    $("#idNumUno").focus();
 }
 function validaInputs(){
     var token = true;
